@@ -5,16 +5,18 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Lionic</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
   <header class="header">
-    <div class="container">
+    <div class="container flex header-container">
       <a href="#" class="header-logo">
         <img src="img/logo.svg" class="header-logo" alt="Logo">
       </a>
       <nav class="header-nav">
-        <ul class="header-list">
+        <ul class="list-reset header-list flex">
           <li class="header-list-item">
             <a href="#" class="header-link">
               Home
@@ -47,14 +49,14 @@
           </li>
         </ul>
       </nav>
-      <button class="btn headeer-button">Free trail</button>
+      <button class="btn headeer-button btn-reset">Free trail</button>
     </div>
   </header>
 
   <main class="main">
     <section id="hero" class="hero">
       <div class="container">
-        <div class="hero-content">
+        <div class="hero-content flex">
           <h1 class="hero-title">
             This is&nbsp;simply a&nbsp;smarter way to&nbsp;make your legal online
           </h1>
@@ -62,8 +64,8 @@
             Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt
             ut&nbsp;laoreet dolore.
           </p>
-          <button class="btn hero-btn">
-            FREE 30&nbsp;DAY TRIAL
+          <button class="btn hero-btn btn-reset">
+            Free 30&nbsp;day trial
           </button>
           <span class="hero-secure">
             SSL secured connection
@@ -71,7 +73,7 @@
         </div>
       </div>
     </section>
-    <section id="services" class="services">
+    <section id="services" class="services section-offset">
       <div class="container">
         <h2 class="section-title services-title">
           Services
@@ -79,8 +81,8 @@
         <p class="section-desc services-desc">
           Lionic guides you on&nbsp;making decisions for all aspects of&nbsp;your end-of-life plans.
         </p>
-        <ul class="services-items">
-          <li class="services-item">/
+        <ul class="list-reset services-items flex">
+          <li class="services-item flex">
             <svg class="services-item-icons" width="68" height="66" viewBox="0 0 68 66" fill="none"
               xmlns="http://www.w3.org/2000/svg">
               <path
@@ -94,7 +96,7 @@
               Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
             </p>
           </li>
-          <li class="services-item">
+          <li class="services-item flex">
             <svg class="services-item-icons" width="86" height="64" viewBox="0 0 86 64" fill="none"
               xmlns="http://www.w3.org/2000/svg">
               <path
@@ -108,7 +110,7 @@
               Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
             </p>
           </li>
-          <li class="services-item">
+          <li class="services-item flex">
             <svg class="services-item-icons" width="64" height="64" viewBox="0 0 64 64" fill="none"
               xmlns="http://www.w3.org/2000/svg">
               <path
@@ -122,7 +124,7 @@
               Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
             </p>
           </li>
-          <li class="services-item">
+          <li class="services-item flex">
             <svg class="services-item-icons" width="65" height="65" viewBox="0 0 65 65" fill="none"
               xmlns="http://www.w3.org/2000/svg">
               <path
@@ -139,20 +141,20 @@
         </ul>
       </div>
     </section>
-    <section id="articles" class="articles">
+    <section id="articles" class="articles section-offset">
       <div class="container">
         <h2 class="section-title articles-title">
           Articles
         </h2>
-        <ul class="articles-items">
+        <ul class="list-reset articles-items flex">
           <li class="articles-item">
-            <article class="blog-preview">
+            <article class="blog-preview flex">
               <img src="img/blog-1.jpg" alt="Blog photo 1" class="blog-preview-image">
               <div class="preview-text">
-                <time class="block-preview-time" datetime="2025-05-15 12:30">
+                <time class="blog-preview-time" datetime="2025-05-15 12:30">
                   15 May 2025
                 </time>
-                <h3 class="blog-prewie-title">
+                <h3 class="blog-preview-title">
                   Jurisdiction
                 </h3>
                 <p class="blog-preview-desc">
@@ -162,13 +164,13 @@
             </article>
           </li>
           <li class="articles-item">
-            <article class="blog-preview">
+            <article class="blog-preview flex">
               <img src="img/blog-2.jpg" alt="Blog photo 2" class="blog-preview-image">
               <div class="preview-text">
-                <time class="block-preview-time" datetime="2025-05-28 14:30">
+                <time class="blog-preview-time" datetime="2025-05-28 14:30">
                   28 May 2025
                 </time>
-                <h3 class="blog-prewie-title">
+                <h3 class="blog-preview-title">
                   Consulting
                 </h3>
                 <p class="blog-preview-desc">
@@ -178,13 +180,13 @@
             </article>
           </li>
           <li class="articles-item">
-            <article class="blog-preview">
+            <article class="blog-preview flex">
               <img src="img/blog-3.jpg" alt="Blog photo 3" class="blog-preview-image">
               <div class="preview-text">
-                <time class="block-preview-time" datetime="2025-05-29 17:30">
+                <time class="blog-preview-time" datetime="2025-05-29 17:30">
                   29 May 2025
                 </time>
-                <h3 class="blog-prewie-title">
+                <h3 class="blog-preview-title">
                   Rights and obligations
                 </h3>
                 <p class="blog-preview-desc">
@@ -194,13 +196,13 @@
             </article>
           </li>
           <li class="articles-item">
-            <article class="blog-preview">
+            <article class="blog-preview flex">
               <img src="img/blog-4.jpg" alt="Blog photo 4" class="blog-preview-image">
               <div class="preview-text">
-                <time class="block-preview-time" datetime="2025-06-11 18:30">
+                <time class="blog-preview-time" datetime="2025-06-11 18:30">
                   11 June 2025
                 </time>
-                <h3 class="blog-prewie-title">
+                <h3 class="blog-preview-title">
                   Contractors
                 </h3>
                 <p class="blog-preview-desc">
@@ -212,81 +214,86 @@
         </ul>
       </div>
     </section>
-    <section id="clients" class="clients">
-      <h2 class="section-title clients-title">
-        Clients
-      </h2>
-      <ul class="clients-items">
-        <li class="client-item">
-          <p class="clients-item-desc">
-            Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu
-            feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit odio dignissim qui
-            blandit molestie consequat.
-          </p>
-          <div class="clients-user">
-            <div class="clients-avatar">
-              <img src="img/client-1.jpg" alt="John Armstrong">
-            </div>
-            <div class="clients-text">
-              <div class="clients-name">
-                John Armstrong
+    <section id="clients" class="clients section-offset">
+      <div class="container">
+        <h2 class="section-title clients-title">
+          Clients
+        </h2>
+        <ul class="list-reset clients-items flex">
+          <li class="client-item flex">
+            <p class="clients-item-desc">
+              Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore
+              eu
+              feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit odio dignissim qui
+              blandit molestie consequat.
+            </p>
+            <div class="clients-user flex">
+              <div class="clients-avatar">
+                <img src="img/client-1.jpg" alt="John Armstrong">
               </div>
-              <span class="clients-role">
-                Customer
-              </span>
-            </div>
-          </div>
-        </li>
-        <li class="client-item">
-          <p class="clients-item-desc">
-            Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu
-            feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit odio dignissim qui
-            blandit molestie consequat.
-          </p>
-          <div class="clients-user">
-            <div class="clients-avatar">
-              <img src="img/client-2.jpg" alt="Elizabeth Martin">
-            </div>
-            <div class="clients-text">
-              <div class="clients-name">
-                Elizabeth Martin
+              <div class="clients-text">
+                <div class="clients-name">
+                  John Armstrong
+                </div>
+                <span class="clients-role">
+                  Customer
+                </span>
               </div>
-              <span class="clients-role">
-                Customer
-              </span>
             </div>
-          </div>
-        </li>
-        <li class="client-item">
-          <p class="clients-item-desc">
-            Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu
-            feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit odio dignissim qui
-            blandit molestie consequat.
-          </p>
-          <div class="clients-user">
-            <div class="clients-avatar">
-              <img src="img/client-3.jpg" alt="Robin Soutby">
-            </div>
-            <div class="clients-text">
-              <div class="clients-name">
-                Robin Soutby
+          </li>
+          <li class="client-item flex">
+            <p class="clients-item-desc">
+              Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore
+              eu
+              feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit odio dignissim qui
+              blandit molestie consequat.
+            </p>
+            <div class="clients-user flex">
+              <div class="clients-avatar">
+                <img src="img/client-2.jpg" alt="Elizabeth Martin">
               </div>
-              <span class="clients-role">
-                Customer
-              </span>
+              <div class="clients-text">
+                <div class="clients-name">
+                  Elizabeth Martin
+                </div>
+                <span class="clients-role">
+                  Customer
+                </span>
+              </div>
             </div>
-          </div>
-        </li>
-      </ul>
+          </li>
+          <li class="client-item flex">
+            <p class="clients-item-desc">
+              Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore
+              eu
+              feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit odio dignissim qui
+              blandit molestie consequat.
+            </p>
+            <div class="clients-user flex">
+              <div class="clients-avatar">
+                <img src="img/client-3.jpg" alt="Robin Soutby">
+              </div>
+              <div class="clients-text">
+                <div class="clients-name">
+                  Robin Soutby
+                </div>
+                <span class="clients-role">
+                  Customer
+                </span>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
     </section>
-    <section id="contacts" class="contacts">
+    <section id="contacts" class="contacts section-offset">
       <div class="container">
         <h2 class="section-title contacts-title">
           Contacts
         </h2>
         <address class="contacts-address">
-          <ul class="contacts-items">
-            <li class="contacts-item">
+          <ul class="list-reset contacts-items flex">
+            <li class="contacts-item flex">
               <strong class="contacts-item-caption">
                 Visit Us
               </strong>
@@ -294,7 +301,7 @@
                 Duis autem vel eum iriure dolor in&nbsp;hendrerit in&nbsp;vulputate velit.
               </p>
             </li>
-            <li class="contacts-item">
+            <li class="contacts-item flex">
               <strong class="contacts-item-caption">
                 Contact Us
               </strong>
@@ -305,7 +312,7 @@
                 +7 (123) 456-78-90
               </a>
             </li>
-            <li class="contacts-item">
+            <li class="contacts-item flex">
               <strong class="contacts-item-caption">
                 Email Us
               </strong>
@@ -332,61 +339,75 @@
     </section> -->
   </main>
 
-  <!-- <footer class="footer">
-    <div class="container">
-      <a href="#" class="footer-logo">
-        <img src="img/logo.svg" class="footer-logo" alt="Logo">
-      </a>
-      <p class="copyright">
-        Copyright &copy;2017. All Right Reserved
-      </p>
-      <ul class="footer-list">
-        <li class="footer-list-item">
-          <a href="#" class="footer-link">
-            About us
-          </a>
-        </li>
-        <li class="footer-list-item">
-          <a href="#" class="footer-link">
-            Contact us
-          </a>
-        </li>
-        <li class="footer-list-item">
-          <a href="#" class="footer-link">
-            Privacy Policy
-          </a>
-        </li>
-        <li class="footer-list-item">
-          <a href="#" class="footer-link">
-            Terms Condition
-          </a>
-        </li>
-      </ul>
-      <a href="#" class="footer-icon-link">
-        <svg width="18" height="14" viewBox="0 0 18 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path
-            d="M17.719 1.65632C17.0672 1.93749 16.3672 2.12756 15.6312 2.213C16.3824 1.77569 16.9578 1.08271 17.2295 0.257952C16.516 0.66998 15.7351 0.960048 14.9207 1.11556C14.258 0.428779 13.313 0 12.2675 0C10.2607 0 8.63311 1.58169 8.63311 3.53391C8.63311 3.81052 8.66516 4.08038 8.72676 4.33947C5.70575 4.19186 3.02744 2.78497 1.2347 0.647183C0.921659 1.16929 0.742478 1.77633 0.742478 2.42402C0.742478 3.64991 1.38427 4.73153 2.35946 5.36512C1.78217 5.34773 1.21754 5.19623 0.712779 4.9233V4.96795C0.712779 6.68033 1.96554 8.10817 3.6285 8.4329C3.32302 8.51427 3.00243 8.55679 2.67076 8.55679C2.43627 8.55679 2.20876 8.53521 1.98651 8.49457C2.44908 9.89809 3.7915 10.9197 5.38164 10.9486C4.13761 11.8967 2.57008 12.4619 0.867562 12.4619C0.574324 12.4619 0.284511 12.4449 0 12.4115C1.60887 13.4145 3.51914 14 5.57194 14C12.2576 14 15.914 8.61508 15.914 3.94522C15.914 3.79191 15.9105 3.63974 15.9029 3.48812C16.6153 2.98716 17.2303 2.36688 17.719 1.65632Z"
-            fill="black" />
-        </svg>
-      </a>
-      <a href="#" class="footer-icon-link">
-        <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path
-            d="M3.85973 15.999V5.20386H0.215035V15.999H3.85973ZM2.03785 3.72907C3.30882 3.72907 4.09994 2.90013 4.09994 1.86422C4.07626 0.804959 3.30887 -0.000976562 2.06197 -0.000976562C0.815269 -0.000976562 0 0.804975 0 1.86422C0 2.90018 0.790923 3.72907 2.01406 3.72907H2.03774H2.03785ZM5.87706 15.999H9.52175V9.97048C9.52175 9.64784 9.54543 9.32554 9.64168 9.0949C9.90516 8.45027 10.5049 7.78262 11.5117 7.78262C12.8305 7.78262 13.3582 8.77258 13.3582 10.2238V15.999H17.0026V9.8091C17.0026 6.49325 15.2045 4.95042 12.8065 4.95042C10.8404 4.95042 9.9771 6.03237 9.49751 6.76928H9.52184V5.20363H5.87714C5.92497 6.21659 5.87714 15.9988 5.87714 15.9988L5.87706 15.999Z"
-            fill="black" />
-        </svg>
-      </a>
-      <a href="#" class="footer-icon-link">
-        <svg width="24" height="18" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path
-            d="M2.40039 0.5H21.5996C22.6744 0.5 23.5 1.31855 23.5 2.25V15.75C23.5 16.6814 22.6744 17.5 21.5996 17.5H2.40039C1.32565 17.5 0.5 16.6814 0.5 15.75V2.25C0.5 1.31855 1.32565 0.5 2.40039 0.5Z"
-            stroke="black" stroke-linecap="round" stroke-linejoin="round" />
-          <path d="M22.8478 1.0625L12 9.93794L1.15222 1.0625" stroke="black" stroke-linecap="round"
-            stroke-linejoin="round" />
-        </svg>
-      </a>
+  <footer class="footer">
+    <div class="container flex footer-container">
+      <div class="footer-left flex">
+        <a href="#" class="footer-logo">
+          <img src="img/logo.svg" class="footer-logo" alt="Logo">
+        </a>
+        <small class="footer-copyright">
+          Copyright &copy;2017. All Right Reserved
+        </small>
+      </div>
+      <div class="footer-right flex">
+        <nav class="footer-nav">
+          <ul class="list-reset footer-list flex">
+            <li class="footer-list-item">
+              <a href="#" class="footer-link">
+                About us
+              </a>
+            </li>
+            <li class="footer-list-item">
+              <a href="#" class="footer-link">
+                Contact us
+              </a>
+            </li>
+            <li class="footer-list-item">
+              <a href="#" class="footer-link">
+                Privacy Policy
+              </a>
+            </li>
+            <li class="footer-list-item">
+              <a href="#" class="footer-link">
+                Terms Condition
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="list-reset footer-list flex">
+          <li class="social-item">
+            <a href="#" class="footer-icon-link">
+              <!-- <svg width="18" height="14" viewBox="0 0 18 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M17.719 1.65632C17.0672 1.93749 16.3672 2.12756 15.6312 2.213C16.3824 1.77569 16.9578 1.08271 17.2295 0.257952C16.516 0.66998 15.7351 0.960048 14.9207 1.11556C14.258 0.428779 13.313 0 12.2675 0C10.2607 0 8.63311 1.58169 8.63311 3.53391C8.63311 3.81052 8.66516 4.08038 8.72676 4.33947C5.70575 4.19186 3.02744 2.78497 1.2347 0.647183C0.921659 1.16929 0.742478 1.77633 0.742478 2.42402C0.742478 3.64991 1.38427 4.73153 2.35946 5.36512C1.78217 5.34773 1.21754 5.19623 0.712779 4.9233V4.96795C0.712779 6.68033 1.96554 8.10817 3.6285 8.4329C3.32302 8.51427 3.00243 8.55679 2.67076 8.55679C2.43627 8.55679 2.20876 8.53521 1.98651 8.49457C2.44908 9.89809 3.7915 10.9197 5.38164 10.9486C4.13761 11.8967 2.57008 12.4619 0.867562 12.4619C0.574324 12.4619 0.284511 12.4449 0 12.4115C1.60887 13.4145 3.51914 14 5.57194 14C12.2576 14 15.914 8.61508 15.914 3.94522C15.914 3.79191 15.9105 3.63974 15.9029 3.48812C16.6153 2.98716 17.2303 2.36688 17.719 1.65632Z"
+                  fill="black" />
+              </svg> -->
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="#" class="footer-icon-link">
+              <!-- <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M3.85973 15.999V5.20386H0.215035V15.999H3.85973ZM2.03785 3.72907C3.30882 3.72907 4.09994 2.90013 4.09994 1.86422C4.07626 0.804959 3.30887 -0.000976562 2.06197 -0.000976562C0.815269 -0.000976562 0 0.804975 0 1.86422C0 2.90018 0.790923 3.72907 2.01406 3.72907H2.03774H2.03785ZM5.87706 15.999H9.52175V9.97048C9.52175 9.64784 9.54543 9.32554 9.64168 9.0949C9.90516 8.45027 10.5049 7.78262 11.5117 7.78262C12.8305 7.78262 13.3582 8.77258 13.3582 10.2238V15.999H17.0026V9.8091C17.0026 6.49325 15.2045 4.95042 12.8065 4.95042C10.8404 4.95042 9.9771 6.03237 9.49751 6.76928H9.52184V5.20363H5.87714C5.92497 6.21659 5.87714 15.9988 5.87714 15.9988L5.87706 15.999Z"
+                  fill="black" />
+              </svg> -->
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="#" class="footer-icon-link">
+              <!-- <svg width="24" height="18" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M2.40039 0.5H21.5996C22.6744 0.5 23.5 1.31855 23.5 2.25V15.75C23.5 16.6814 22.6744 17.5 21.5996 17.5H2.40039C1.32565 17.5 0.5 16.6814 0.5 15.75V2.25C0.5 1.31855 1.32565 0.5 2.40039 0.5Z"
+                  stroke="black" stroke-linecap="round" stroke-linejoin="round" />
+                <path d="M22.8478 1.0625L12 9.93794L1.15222 1.0625" stroke="black" stroke-linecap="round"
+                  stroke-linejoin="round" />
+              </svg> -->
+            </a>
+          </li>
+        </ul>
+      </div>
     </div>
-  </footer> -->
+  </footer>
 </body>
 
 </html>
